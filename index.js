@@ -1,16 +1,6 @@
-// Create a function which take two number from user and return the sum
-function add(a, b) {
-  const sum = a + b;
-  const mul = a * b;
-  const sub = a - b;
-  const div = a / b;
-  return {
-    sum,
-    mul,
-    sub,
-    div,
-  };
+//  Create a function which  return only the first 2 elements of an array.
+function firstTwo(arr) {
+  return arr.slice(0, 2);
 }
 
-const result = add(3, 8);
-console.log(result);
+console.log(firstTwo([1, 2, 3, 4, 5]));

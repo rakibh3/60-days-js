@@ -1,6 +1,8 @@
-//  Create a function which  return only the first 2 elements of an array.
-function firstTwo(arr) {
-  return arr.slice(0, 2);
+// Create a function for find unique number from an array
+function findUnique(arr) {
+  // code goes here
+  return arr.filter((item, index) => arr.indexOf(item) === index);
+  // return [...new Set(arr)];
 }
 
-console.log(firstTwo([1, 2, 3, 4, 5]));
+module.exports = findUnique;

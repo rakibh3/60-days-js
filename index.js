@@ -1,8 +1,8 @@
-// Create a function for find unique number from an array
-function findUnique(arr) {
-  // code goes here
-  return arr.filter((item, index) => arr.indexOf(item) === index);
-  // return [...new Set(arr)];
-}
-
-module.exports = findUnique;
+const cart = [5, 15, 25];
+let total = 0;
+const withTax = cart.map((cost) => {
+  total += cost;
+  return cost * 1.2;
+});
+console.log(withTax); // [6, 18, 30]
+console.log(total); // 45

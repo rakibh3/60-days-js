@@ -5,5 +5,5 @@ const withTax = cart.map((cost) => {
   return cost * 1.2;
 });
 
-const allSum = withTax.reduce((acc, cost) => acc + cost, 0);
-console.log(allSum);
+const sum = withTax.reduce((acc, cost) => acc + cost, 0);
+console.log(sum);

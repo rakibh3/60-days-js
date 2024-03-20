@@ -1,4 +1,4 @@
-const cart = [5, 15, 25, 35, 45, 3, 8];
+const cart = [5, 15, 25, 35, 45, 3, 8, 4];
 let total = 0;
 const withTax = cart.map((cost) => {
   total += cost;

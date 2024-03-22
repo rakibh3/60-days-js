@@ -1,9 +1,9 @@
-const cart = [5, 15, 25, 35, 45, 3, 8, 4, 99];
-let total = 0;
-const withTax = cart.map((cost) => {
-  total += cost;
-  return cost * 1.2;
-});
+const objects = [
+  { name: 'Object 1' },
+  { name: 'Object 2' },
+  { name: 'Object 3' },
+];
 
-const sum = withTax.reduce((acc, cost) => acc + cost, 0);
-console.log('Sum:', sum);
+objects.forEach((obj) => {
+  console.log(obj.name);
+});

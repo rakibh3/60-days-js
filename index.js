@@ -1,9 +1,7 @@
-const objects = [
-  { name: 'Object 1' },
-  { name: 'Object 2' },
-  { name: 'Object 3' },
-];
+// An array of numbers
+const numbers = [1, 2, 3, 4, 5];
 
-objects.forEach((obj) => {
-  console.log(obj.name);
-});
+// Using the filter method to filter out even numbers
+const evenNumbers = numbers.filter((num) => num % 2 === 0);
+
+console.log(evenNumbers); // Output: [2, 4]

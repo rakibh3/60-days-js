@@ -5,7 +5,4 @@ for (let i = 0; i < name.length; i++) {
   console.log(name[i]);
 }
 
-// Output
-// John
-// Doe
-// Jane
+// Output : John, Doe, Jane

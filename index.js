@@ -1,4 +1,4 @@
-const name = ['John', 'Doe', 'Jane'];
+const name = ['John', 'Doe', 'Jane', 'Hasan'];
 
 // for loop to iterate over the array
 for (let i = 0; i < name.length; i++) {
